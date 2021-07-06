@@ -19,7 +19,7 @@ public class Test_1 {
     public static void main(String[] args) {
         ChromeWebDriver driver = new ChromeWebDriver();
         WebDriverWait driverWait = new WebDriverWait(driver.getDriver(), 10);
-        driver.setSizeWindow(1600, 900);
+        driver.setSizeWindow(1000, 900);
         driver.getDriver().get(PAGE_URL);
 
         try{
@@ -94,7 +94,7 @@ public class Test_1 {
             System.out.println("Кнопка \"Сохранить\" нажата");
 
             //проверяем, что проект создан
-            WebElement until = driverWait.until(ExpectedConditions.visibilityOf(driver.getDriver().findElement(By.xpath("//h1[@class='oro-subtitle']"))));
+            driverWait.until(ExpectedConditions.visibilityOf(driver.getDriver().findElement(By.xpath("//h1[@class='oro-subtitle']"))));
             System.out.println("Тест успешен!");
 
         } catch (Exception e){

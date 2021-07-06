@@ -1,5 +1,4 @@
 package Lesson_3;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -16,7 +15,7 @@ public class Test_2 {
     public static void main(String[] args) {
         ChromeWebDriver driver = new ChromeWebDriver();
         WebDriverWait driverWait = new WebDriverWait(driver.getDriver(), 10);
-        driver.setSizeWindow(1600, 900);
+        driver.setSizeWindow(1000, 900);
         driver.getDriver().get(PAGE_URL);
 
         try{
