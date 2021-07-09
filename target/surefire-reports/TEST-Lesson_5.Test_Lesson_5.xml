@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Lesson_4.TestAreaTriangle" time="0.189" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Lesson_5.Test_Lesson_5" time="18.038" tests="4" errors="3" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,5 +62,32 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
   </properties>
-  <testcase name="areaTriangleTest{int, int, int}[1]" classname="Lesson_4.TestAreaTriangle" time="0.049"/>
+  <testcase name="createProjectTest" classname="Lesson_5.Test_Lesson_5" time="17.403"/>
+  <testcase name="dragAndDrop" classname="Lesson_5.Test_Lesson_5" time="0.021">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro-User.local&apos;, ip: &apos;fe80:0:0:0:8f8:6cec:2876:f0d1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-User.local', ip: 'fe80:0:0:0:8f8:6cec:2876:f0d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at Lesson_5.Test_Lesson_5.setUpTest(Test_Lesson_5.java:42)
+</error>
+  </testcase>
+  <testcase name="testFilter" classname="Lesson_5.Test_Lesson_5" time="0.003">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro-User.local&apos;, ip: &apos;fe80:0:0:0:8f8:6cec:2876:f0d1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-User.local', ip: 'fe80:0:0:0:8f8:6cec:2876:f0d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at Lesson_5.Test_Lesson_5.setUpTest(Test_Lesson_5.java:42)
+</error>
+  </testcase>
+  <testcase name="createContactPerson" classname="Lesson_5.Test_Lesson_5" time="0.007">
+    <error message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro-User.local&apos;, ip: &apos;fe80:0:0:0:8f8:6cec:2876:f0d1%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_281&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-User.local', ip: 'fe80:0:0:0:8f8:6cec:2876:f0d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at Lesson_5.Test_Lesson_5.setUpTest(Test_Lesson_5.java:42)
+</error>
+  </testcase>
 </testsuite>

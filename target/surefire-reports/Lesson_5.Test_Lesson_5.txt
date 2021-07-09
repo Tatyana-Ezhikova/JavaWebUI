@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Lesson_5.Test_Lesson_5
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 18.038 s <<< FAILURE! - in Lesson_5.Test_Lesson_5
+dragAndDrop  Time elapsed: 0.021 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-User.local', ip: 'fe80:0:0:0:8f8:6cec:2876:f0d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at Lesson_5.Test_Lesson_5.setUpTest(Test_Lesson_5.java:42)
+
+testFilter  Time elapsed: 0.003 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-User.local', ip: 'fe80:0:0:0:8f8:6cec:2876:f0d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at Lesson_5.Test_Lesson_5.setUpTest(Test_Lesson_5.java:42)
+
+createContactPerson  Time elapsed: 0.007 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-User.local', ip: 'fe80:0:0:0:8f8:6cec:2876:f0d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: driver.version: RemoteWebDriver
+	at Lesson_5.Test_Lesson_5.setUpTest(Test_Lesson_5.java:42)
+
