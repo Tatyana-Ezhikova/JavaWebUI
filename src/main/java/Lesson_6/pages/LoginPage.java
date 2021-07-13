@@ -1,6 +1,6 @@
 package Lesson_6.pages;
 
-import Base.BaseView;
+import Lesson_6.Base.BaseView;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +16,7 @@ public class LoginPage extends BaseView {
 
     @FindBy(xpath = ".//button[@name='_submit']")
     private WebElement buttonSignIn;
+    private WebDriver driver;
 
     public LoginPage(WebDriver driver) {
         super(driver);

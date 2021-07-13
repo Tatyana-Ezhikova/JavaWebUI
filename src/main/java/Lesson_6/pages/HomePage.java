@@ -1,8 +1,8 @@
 package Lesson_6.pages;
 
-import Base.BaseView;
+import Lesson_6.Base.BaseView;
+import Lesson_6.views.NavigationBar;
 import org.openqa.selenium.WebDriver;
-import views.NavigationBar;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
