@@ -1,2 +1,9 @@
-Lesson_4/TestAreaTriangle.class
+Lesson_6/features/NewProjectTest.class
+Lesson_6/common/Configuration.class
+Lesson_6/Base/BaseTest.class
 ru/geek/webui/AppTest.class
+Lesson_4/TestAreaTriangle.class
+Lesson_6/features/NavigationTest.class
+Lesson_6/features/PositiveLoginTest.class
+Lesson_6/Base/BaseUITest.class
+Lesson_6/features/NewContactTest.class

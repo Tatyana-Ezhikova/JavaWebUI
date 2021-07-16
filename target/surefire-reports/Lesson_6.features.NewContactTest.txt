@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Lesson_6.features.NewContactTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.097 s <<< FAILURE! - in Lesson_6.features.NewContactTest
+createNewContactPositiveTest  Time elapsed: 11.646 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "driver" is null
+	at Lesson_6.features.NewContactTest.createNewContactPositiveTest(NewContactTest.java:18)
+

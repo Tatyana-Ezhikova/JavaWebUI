@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: Lesson_6.features.NavigationTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 94.003 s <<< FAILURE! - in Lesson_6.features.NavigationTest
+checkMainNavigationTabsTest{NavigationBarTabs}[1]  Time elapsed: 10.455 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[2]  Time elapsed: 10.513 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[3]  Time elapsed: 12.505 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[4]  Time elapsed: 10.185 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[5]  Time elapsed: 10.462 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[6]  Time elapsed: 9.972 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[7]  Time elapsed: 10.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[8]  Time elapsed: 8.652 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
+checkMainNavigationTabsTest{NavigationBarTabs}[9]  Time elapsed: 10.634 s  <<< ERROR!
+java.lang.NullPointerException
+	at Lesson_6.features.NavigationTest.checkMainNavigationTabsTest(NavigationTest.java:18)
+
