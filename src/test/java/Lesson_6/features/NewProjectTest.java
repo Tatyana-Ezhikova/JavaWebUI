@@ -6,8 +6,10 @@ import Lesson_6.enums.NavigationBarTabs;
 import Lesson_6.enums.ProjectSubMenuButtons;
 import Lesson_6.pages.AllProjectsPage;
 import Lesson_6.pages.LoginPage;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Test;
 
+@Feature("Project")
 public class NewProjectTest extends BaseUITest {
     @Test
     public void createNewProjectPositiveTest() throws InterruptedException {

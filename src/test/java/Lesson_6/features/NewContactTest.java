@@ -6,8 +6,10 @@ import Lesson_6.enums.ContactSubMenuButtons;
 import Lesson_6.enums.NavigationBarTabs;
 import Lesson_6.pages.AllContactsPage;
 import Lesson_6.pages.LoginPage;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Test;
 
+@Feature("Contact")
 public class NewContactTest extends BaseUITest {
 
     @Test

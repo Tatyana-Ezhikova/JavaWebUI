@@ -4,9 +4,11 @@ import Lesson_6.Base.BaseUITest;
 import Lesson_6.common.Configuration;
 import Lesson_6.enums.NavigationBarTabs;
 import Lesson_6.pages.LoginPage;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
+@Feature("Navigation")
 public class NavigationTest extends BaseUITest {
 
     @ParameterizedTest

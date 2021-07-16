@@ -9,6 +9,7 @@ import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.logging.LogType;
 
 import java.util.concurrent.TimeUnit;
 
@@ -34,6 +35,17 @@ public abstract class BaseUITest {
 
     @AfterEach
     public void tearDown() {
+        // Вывод всех ошибок браузера после каждого теста
+        System.out.println("========================= START LOG BROWSER =============");
+        driver
+                .manage()
+                .logs()
+                .get(LogType.BROWSER)
+                .getAll()
+                .forEach(System.out::println);
+        System.out.println("========================= END LOG BROWSER =============");
+
+        // -------------------------------
         driver.quit();
     }
 }
